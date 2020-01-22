@@ -1,12 +1,15 @@
-This was going to be my first open-source pull request, but unfortunately the owner has archived the repo, but I will still share what I would've done.
+This was going to be my first open-source pull request, but unfortunately the owner has archived the repo, but I will still share what I was going to contribute.
 
 #scope
+
 $location = split-array-to-chunks.js , $browser = should be compatible on modern browser, not sure about IE, \$compile= tests all passed, should compile , not really sure that this means.
 
 #Short description
+
 split a Javascript array into chunks with a specified size using a while loop.
 
 #Long description
+
 Instantiate a new array in the function, and the function accepts your raw array that you want to chunk and the size you want to chunk as arguments, using a while loop you want to set the length of the raw array as a condition, meaning if the raw array has 0 items left, the loop exists. Within the while block, we use splice method to split the raw array data into smaller arrays determined by chunk size argument, and push that into the newly created array, with will also be returned as a 2d array containing all the chunked arrays. I used it for pagination and lazy loading once, not sure if best practice.
 
 # [ARCHIVED: READ MORE](https://github.com/eggheadio-github/stack-overflow-copy-paste/issues/257)
